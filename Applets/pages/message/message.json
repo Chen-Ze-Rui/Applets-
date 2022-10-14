@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "select":"/components/select/select"
+  
+  },
+  "enablePullDownRefresh": true,
+  "backgroundColor": "#efefef",
+  "backgroundTextStyle": "dark"
+}

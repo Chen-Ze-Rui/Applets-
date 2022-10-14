@@ -1,0 +1,7 @@
+/* pages/home/home.wxss */
+page{
+  display: flex;
+}
+image{
+  margin-top: 300rpx;
+}

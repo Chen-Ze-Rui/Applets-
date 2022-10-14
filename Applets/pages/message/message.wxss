@@ -1,0 +1,54 @@
+/* pages/message/message.wxss */
+.list{
+  border: 2rpx solid rgb(136, 135, 135);
+  display: flex;
+}
+.list image{
+  height: 160rpx;
+  width: 160rpx;
+  padding: 20rpx;
+}
+.box{
+  margin-top: 40rpx;
+  float: right;
+}
+.title{
+  font-weight: bold;
+  font-size: 38rpx;
+}
+
+/* 对话内容预览 */
+.content{
+  font-size: 30rpx;
+  margin-top: 50rpx;
+  opacity: 0.5;
+  color: rgb(82, 86, 88);
+  font-weight: bold;
+  width: 400rpx;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+}
+
+.time{
+  float: right;
+  margin-right: -110rpx;
+  margin-top: 55rpx;
+  opacity: 0.5;
+  font-size: 27rpx;
+
+}
+
+.inner.del{
+  background-color: rgb(37, 198, 204);
+  width: 180rpx;
+  text-align: center;
+  z-index: 1;
+  right: -50rpx;
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 160rpx;
+}
+

@@ -1,0 +1,20 @@
+<!-- 搜索框组件 -->
+<view>
+     <view>
+        <view class="weui-search-bar">
+            <view class="weui-search-bar__form">
+            <!-- 搜索框 -->
+                <view class="weui-search-bar__box">
+
+                    <icon class="weui-icon-search_in-box" 
+                    type="search" size="14"></icon>
+
+                 <slot></slot>
+
+                </view>
+            </view>
+            <!-- 搜索按钮,调用搜索查询方法 -->
+            <button type='primary' class='btn' size='mini'>搜索</button>
+        </view>
+    </view>
+</view>

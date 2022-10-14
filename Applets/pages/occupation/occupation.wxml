@@ -1,0 +1,47 @@
+<select>
+  <input type="text" 
+                    class="weui-search-bar__input" 
+                    bindblur='input'
+                    placeholder="搜索相关条件"/>
+</select>
+
+<!-- 条件筛选 -->
+<view class="condition">
+  
+    <view class="item" bindtap="time">
+      <image src="{{time}}"></image>
+      <text>时间</text>
+    </view>
+
+    <view class="item" bindtap="positioning">
+      <image src="{{positioning}}"></image>
+      <text>地点</text>
+    </view>
+
+    <view class="item" bindtap="post">
+      <image src="{{post}}"></image>
+      <text>岗位</text>
+    </view>
+
+</view>
+
+<view class="text-condition">{{condition}}             
+    <image src="/image/arrange.png"></image>
+</view>
+
+<!-- 岗位列表 -->
+<view class="grid-list">
+  <view wx:for="{{gridList}}"
+              wx:key="index"
+              class="grid-item">
+
+              <view class="item-time" wx:if="{{gridList}}">{{item.time}}</view>
+              <view class="item-title" wx:if="{{gridList}}">{{item.title}}</view>
+              
+              <view class="item-information" wx:if="{{gridList}}">工作时长：{{item.worktime}}</view>
+              <view class="item-information" wx:if="{{gridList}}">工作地点：{{item.place}}</view>
+              <button class="btn" style="height: 60rpx; width: 200rpx;">点击了解</button>
+              <view class="item-information" wx:if="{{gridList}}">联系人：{{item.person}}</view>
+             
+  </view>
+</view>

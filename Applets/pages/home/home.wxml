@@ -1,0 +1,3 @@
+<!--pages/home/home.wxml-->
+<image src="/image/teacher.png"></image>
+<image src="/image/student.png" bindtap="student"></image>

@@ -1,0 +1,15 @@
+function splitPhone(str){
+ if(str.length !==11)return str
+// 拆分字符串
+  var arr = str.split('')
+  //在第3个位置，删除0个字符，添加“-”字符串
+  arr.splice(3,0,'-')
+  arr.splice(8,0,'-')
+//合并字符串
+ return arr.join('')
+
+}
+
+module.exports = {
+  splitPhone:splitPhone
+}

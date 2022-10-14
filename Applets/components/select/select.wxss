@@ -1,0 +1,46 @@
+/* components/select/select.wxss */
+/* 搜索框样式 */
+.weui-search-bar {
+  position: relative;
+  padding: 18rpx 20rpx;
+  display: flex;
+  box-sizing: border-box;
+  background-color: #3c3c74;
+
+}
+.weui-icon-search_in-box {
+  position: absolute;
+  left: 30rpx;
+  top: 15rpx;
+}
+.weui-search-bar__form {
+  position: relative;
+          flex: auto;
+  border-radius: 25rpx;
+  background: #FFFFFF;
+  border: 1rpx solid #E6E6EA;
+}
+.weui-search-bar__box {
+  position: relative;
+  padding-left: 60rpx;
+  padding-right: 60rpx;
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 1;
+}
+.weui-search-bar__input {
+  height: 38rpx;
+  line-height: 38rpx;
+  font-size: 34rpx;
+}
+.weui-search-bar__cancel-btn {
+  margin-left: 20rpx;
+  line-height: 55rpx;
+  color: #09BB07;
+  white-space: nowrap;
+}
+
+.btn{
+  height: 32px;
+  margin-left: 10px;
+}

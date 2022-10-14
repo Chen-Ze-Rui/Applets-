@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/occupation/occupation",
+    "pages/message/message",
+    "pages/contact/contact",
+    "pages/job/job",
+    "pages/exercitation/exercitation"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "navigationBarTitleText": "校园志愿汇",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/occupation/occupation",
+        "text": "工作",
+        "iconPath": "/image/work.png",
+        "selectedIconPath": "/image/work1.png"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "text": "消息",
+        "iconPath": "/image/message.png",
+        "selectedIconPath": "/image/message1.png"
+      },
+      {
+        "pagePath": "pages/contact/contact",
+        "text": "我的",
+        "iconPath": "/image/person.png",
+        "selectedIconPath": "/image/person1.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "usingComponents": {
+    "select":"/components/select/select"
+  }
+}
